@@ -12,3 +12,6 @@ __pycache__/
 input.txt
 env/
 venv/
+
+# 屏蔽任何 out 前缀的训练输出目录（如 out-base-gpt2-zh/、out-sft-zh/、out-dpo-zh/）
+out*/
